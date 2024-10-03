@@ -194,7 +194,7 @@ const App = () => {
                     </div>
 
                     {isOpen && (
-                        <div className="md:hidden h-screen bg-gradient-to-r from-purple-400 to-blue-400 text-white p-4">
+                        <div className="md:hidden h-screen bg-blue-400 text-white p-4">
                             <ul className="flex flex-col space-y-2">
                                 {Navbar_links.map((item) => (
                                     <li key={item.id}>
