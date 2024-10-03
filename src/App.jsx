@@ -240,8 +240,8 @@ const App = () => {
                             <div className="lg:w-1/4 md:w-1/4 sm:w-1/2 w-full p-2  block m-auto">
                                 <img
                                     className="rounded-lg shadow-lg w-auto md:w-auto lg:h-[250px] "
-                                    src='./src/assets/Abhishek.jpg'
-                                    alt='Abhishek Shinde Portfolio'
+                                    src='https://i.postimg.cc/wjPpkvyN/Abhishek.jpg'
+                                    alt='Abhishek Shinde Image'
                                 />
                             </div>
                         </div>
@@ -282,7 +282,7 @@ const App = () => {
 
                                 <div className="p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
                                     <h3 className="text-2xl font-semibold mb-4">Tools</h3>
-                                    <p className="text-lg mb-4">Tools that I know and use on a daily basis <br /><br /></p>
+                                    <p className="text-lg mb-4">Tools that I know and use on a daily basis </p>
                                     <hr />
                                     <div className="mt-2 space-y-4 w-full">
                                         {Tools.map((item3, index) => (
